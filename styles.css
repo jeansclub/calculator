@@ -12,3 +12,23 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.calc-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 80%;
+    background-color: #555454;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    background-color: black;
+}
