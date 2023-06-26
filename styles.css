@@ -21,7 +21,8 @@ body {
     justify-content: center;
     width: 300px;
     height: 500px;
-    background-color: #292020;
+    background-color: #4d4848;
+    /*background-color: #292020;
     /*border-style: solid;*/
     border-radius: 40px;
     
@@ -60,5 +61,55 @@ body {
     border-radius: 20px;
     width: 270px;
     height: 370px;
-    background-color: aqua;
+    /*background-color: aqua;*/
+}
+
+.n-boton {
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.f-boton{
+    width: 60px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.n-con {
+    width: 200px;
+    display: flex;
+    gap: 10px;
+}
+
+.bot {
+    background-color: #292020;
+    color: #ac7d07;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    height: 60px;
+    width: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.cancel{
+    border-top-left-radius: 20px;
+}
+
+.dzero {
+    border-bottom-left-radius: 20px;
+}
+
+.plus {
+    border-top-right-radius: 20px;
+}
+
+.sum {
+    border-bottom-right-radius: 20px;
 }
