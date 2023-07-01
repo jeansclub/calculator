@@ -110,3 +110,8 @@ body {
 .sum {
     border-bottom-right-radius: 20px;
 }
+
+.pressed {
+    box-shadow: 0px 0px 10px 5px #d44313;
+    opacity: 0,4;
+}
