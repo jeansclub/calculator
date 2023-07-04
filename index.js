@@ -32,7 +32,6 @@ document.addEventListener("keypress", function(event) {
 });
 
 function buttonAnimation(currentKey) {
-    var pressedButton = document.querySelector("." + currentKey);
-    pressedButton.classList.add("pressed");
+    document.querySelectorAll("." + currentKey)[0].classList.add("pressed");
 }
 
