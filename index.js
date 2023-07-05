@@ -11,3 +11,8 @@ for (let index = 0; index < document.querySelectorAll(".bot").length; index++) {
     });
     
 }
+
+document.addEventListener("keypress", function(event) {
+    var keyBoard = event.key;
+    alert(keyBoard + " was pressed");
+})
