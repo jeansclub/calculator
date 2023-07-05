@@ -1,37 +1,13 @@
-/*var calBot = document.querySelectorAll(".bot").length;
-
-for (var i = 0; i < calBot; i++) {
-
-    document.querySelectorAll(".bot")[i].addEventListener("click", clickMe);
-
-    function clickMe() {
-        alert("I got Clicked!");
-    }
-    
-}*/
-
-
-
-
 for (let index = 0; index < document.querySelectorAll(".bot").length; index++) {
-
     document.querySelectorAll(".bot")[index].addEventListener("click", function() {
-        var buttonInnerHTML = this.innerHTML;
+        
+        var buton = this;
+        buton.classList.add("shadow");
 
-        alert(buttonInnerHTML + " got Clicked!");
-        buttonAnimation(buttonInnerHTML);
+        setTimeout(() => {
+           buton.classList.remove("shadow");
+        }, 250);
+        
     });
     
 }
-
-document.addEventListener("keypress", function(event) {
-
-    alert(event.key + " got Clicked!");
-    buttonAnimation(event.key);
-    
-});
-
-function buttonAnimation(currentKey) {
-    document.querySelectorAll("." + currentKey)[0].classList.add("pressed");
-}
-
