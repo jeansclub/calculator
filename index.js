@@ -14,6 +14,8 @@ document.querySelector(".equal").addEventListener("click", solve);
 
 document.querySelector(".clearscreen").addEventListener("click", cancelAll);
 
+document.querySelector(".del").addEventListener("click", delet);
+
 
 
 
@@ -36,5 +38,12 @@ function solve() {
 function cancelAll() {
     document.querySelector(".arith").value = "";
     document.querySelector(".result").value = "";
+}
+
+function delet() {
+    var g = document.querySelector(".arith").value;
+    var h = g.slice(0, -1);
+    document.querySelector(".arith").value = h;
+    return h;
 }
 

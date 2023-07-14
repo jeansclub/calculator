@@ -126,3 +126,10 @@ button:hover {
     color: #06e906;
     font-size: 1.2rem;
 }
+
+.del {
+    border-radius: 15px;
+    background-color: #ff0000;
+    color: rgb(3, 3, 53);
+    font-size: 1.2rem;
+}
